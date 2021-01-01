@@ -1,16 +1,16 @@
 import React from "react"
 import styled from "styled-components"
-import { Link } from "gatsby"
+import Header from "../components/header"
 
-export default function Home() {
+export default function About() {
   return (
     <div>
-      <Link to="/contact/">Contact</Link>
       <Title>Hello world!</Title>
+      <Header headerText="About Gatsby" />
     </div>
   )
 }
 
 const Title = styled.h1`
-  color: red;
+  color: purple;
 `
